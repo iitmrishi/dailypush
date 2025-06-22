@@ -19,9 +19,9 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
     
-    - name: Configure Git for 23f3003642@ds.study.iitm.ac.in
+    - name: Configure Git for 23f3003652@ds.study.iitm.ac.in
       run: |
-        git config --local user.email "23f3003642@ds.study.iitm.ac.in"
+        git config --local user.email "23f3003652@ds.study.iitm.ac.in"
         git config --local user.name "DevSync Automation"
     
     - name: Generate daily status update
